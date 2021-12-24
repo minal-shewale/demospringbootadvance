@@ -25,4 +25,10 @@ public class ApplicationController {
     public ResponseEntity<String> service() {
         return ResponseEntity.ok("software developer");
     }
+
+    @GetMapping("/by")
+    public ResponseEntity<String> by()
+    {
+        return ResponseEntity.ok("fullstack");
+    }
 }
