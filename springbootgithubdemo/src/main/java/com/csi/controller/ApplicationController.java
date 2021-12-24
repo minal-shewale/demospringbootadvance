@@ -20,4 +20,9 @@ public class ApplicationController {
     {
         return ResponseEntity.ok("pune");
     }
+
+    @GetMapping("/service")
+    public ResponseEntity<String> service() {
+        return ResponseEntity.ok("software developer");
+    }
 }
