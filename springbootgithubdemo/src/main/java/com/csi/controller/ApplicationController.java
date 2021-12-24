@@ -14,4 +14,10 @@ public class ApplicationController {
     {
         return ResponseEntity.ok("hello");
     }
+
+    @GetMapping("/address")
+    public ResponseEntity<String> address()
+    {
+        return ResponseEntity.ok("pune");
+    }
 }
